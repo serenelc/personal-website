@@ -5,75 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-<title>Serene Chongtrakul | About</title>
+<title>Serene Chongtrakul | Home </title>
 </head>
 <body>
 
-<div class="topnav">
-  <div class="topnavLinks">
-    <a class="active" href="index.html">About</a>
-    <a href="Articles.html">Articles</a>
-    <a href="https://www.doc.ic.ac.uk/~dd2517/quantumcryptographywebsite">Projects</a>
-  </div>
-  <a href="index.html"><h1> Serene Chongtrakul </h1></a>
-</div>
-
-<div class="asidelinks">
-  <h3> Links </h3>
-  <a href="CV.pdf"><img src="CV.png" style="width: 30px; height: 30px;"/> CV</a>
-  <a href="mailto:sc5217@ic.ac.uk?"><img src="Email.png" style="width: 30px; height: 30px;"/> Email</a>
-  <a href="https://github.com/serenelc"><img src="GitHub.png" style="width: 30px; height: 30px;"/> GitHub</a>
-  <a href="https://www.linkedin.com/in/serenechongtrakul/"><img src="LinkedIn.png" style="width: 30px; height: 30px;"/> Linkedin</a>
-</div>
-
 <div class="main">
-  <h1>About</h1>
-  <p>I am a first year undergraduate studying Joint Mathematics and Computer Science
-  at Imperial College London. </p>
-  <h3>Experience</h3>
-  <p> <b> Plancktime </b>
-    <br> <i> Computer Science and Mathematics Author</i>, London | December 2017 - present </br>
-    I write articles related to the fields of computer science and mathematics for a free online
-    mathematics and physics resource. At the moment, I have written two monthly articles summing
-    up significant occurences within these topics.</br>
-  </p>
-  <p> <b> Imperial College Union </b>
-    <br> <i> Pimlico Connections Volunteer Tutor</i>, London | November 2017 - March 2018 </br>
-    I teach maths to excelling year 5 and year 6 students at Christ Church primary school.
-    This has taught me how to explain a technical or difficult concept so that those who are less
-    experienced or not as familiar with the subject can understand it more easily. Working with
-    another tutor to create lesson plans has also improved my communication, organisational
-    and teamwork skills. </br>
-  </p>
-  <h3>Technical Skills</h3>
-  <p> <b> Programming Languages </b>: Java, Haskell, HTML, CSS
-  <br> <b> Tools </b>: IntelliJ IDEA </br></p>
-  <h3>Interests</h3>
-  <p> Outside of academics, my interests include: pole and aerial, tennis, singing
-    and playing the piano.
-  </p>
-  <p> <b> Pole and Aerial </b>:
-    I joined Imperial's Pole and Aerial society in my first term and have since become
-    an active participant. I partake in both the beginner pole classes, which are held on campus, and
-    the aerial silks and aerial hoop classes, which are taught at our sister studio 'Aerialand'
-    in Hammersmith.
-    For the upcoming academic year, I will be aerials officer for the society. The role
-    involves overseeing the aerial branch of Imperial's Pole and Aerial society as well as
-    liasing with our sister studios, ensuring to maintain good relationships. I will also be
-    working with the secretary to code a new booking transferal system and class checking system
-    as currently the secretary and aerials officer have to manually transfer internal bookings to
-    Aerialand's website and manually check when member's classes are running low.
-  </p>
-  <p> <b> Music </b>:
-    I have achieved an ABRSM grade 8 in both (classical) singing and piano. Some of my song covers for popular
-    music can be listened to on my <a href="https://soundcloud.com/serenelc">soundcloud</a>.
-  </p>
-  <p>
-</p>
+  
+  <div id="home">
+    <a href="index.html"><h1 style="text-align:center;"> Serene Chongtrakul </h1></a>
+    <div class="links">
+      <a href="#articles">Articles</a>
+      <a href="#projects">Projects</a>
+      <a href="CV.pdf">CV</a>
+      <a href="https://github.com/serenelc">GitHub</a>
+      <a href="https://www.linkedin.com/in/serenechongtrakul/">Linkedin</a>
+    </div>
+    <p style="text-align: center;"> Second year joint mathematics and computing student at Imperial College London </p>
+  </div>
+  <div id="articlesPage">
+    <a id="Articles" class="smooth"></a>
+    ARTICLES CONTENT
+  </div>
+
+  <div id="projectsPage">
+    <a id="Projects" class="smooth"></a>
+      PROJECTS CONTENT
+  </div>
+
 </div>
+
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+
+    return false;
+});
+</script>
 </body>
 </html>
