@@ -1,55 +1,159 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-<title>Serene Chongtrakul | Home </title>
-</head>
-<body>
+<html lang="en">
 
-<div class="main">
-  
-  <div id="home">
-    <a href="index.html"><h1 style="text-align:center;"> Serene Chongtrakul </h1></a>
-    <div class="links">
-      <a href="#articles">Articles</a>
-      <a href="#projects">Projects</a>
-      <a href="CV.pdf">CV</a>
-      <a href="https://github.com/serenelc">GitHub</a>
-      <a href="https://www.linkedin.com/in/serenechongtrakul/">Linkedin</a>
-    </div>
-    <p style="text-align: center;"> Second year joint mathematics and computing student at Imperial College London </p>
-  </div>
-  <div id="articlesPage">
-    <a id="Articles" class="smooth"></a>
-    ARTICLES CONTENT
-  </div>
+  <head>
 
-  <div id="projectsPage">
-    <a id="Projects" class="smooth"></a>
-      PROJECTS CONTENT
-  </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-</div>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="stylesheet.css" rel="stylesheet">
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
+    <title> Serene Chongtrakul </title>
 
-    return false;
-});
-</script>
-</body>
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar">
+          <a class="js-scroll-trigger" href="#page-top">Serene Chongtrakul</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#articles">Articles</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Serene Chongtrakul</h1>
+        <h3 class="mb-5">
+          <a class="js-scroll-trigger" href="#about">About</a>
+          <a class="js-scroll-trigger" href="#articles">Articles</a>
+          <a class="js-scroll-trigger" href="#projects">Projects</a>
+          <a href="CV.pdf">CV</a>
+        </h3>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1> About </h1>
+            <p>Some shit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="content-section text-center" id="articles">
+      <div class="container">
+        <div class="content-section-heading">
+          <h1>Articles</h1>
+          <p> I write articles as part of the <a href = "https://www.planckti.me" target="_blank">Plancktime</a> team.
+              Plancktime is a free online physics and mathematics resource.</p>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-5 mx-auto">
+              <a href="https://www.planckti.me/2018/06/01/may-roundup-maths-tech-computing/" target="_blank"><h2> May Roundup: Maths, Tech, Computing </h2></a>
+              <p>Date Published: 1st June 2018</p>
+            </div>
+            <div class="col-lg-5 mx-auto">
+              <a href="https://www.planckti.me/2018/03/29/march-roundup-maths-tech-computing/" target="_blank"><h2> March Roundup: Maths, Tech, Computing </h2></a>
+              <p>Date Published: 1st April 2018</p>
+            </div>
+            <div class="col-lg-5 mx-auto">
+              <a href="https://www.planckti.me/2018/02/28/february-roundup-maths-tech-computing/" target="_blank"><h2> February Roundup: Maths, Tech, Computing </h2></a>
+              <p>Date Published: 1st March 2018</p>
+            </div>
+            <div class="col-lg-5 mx-auto">
+              <a href="https://www.planckti.me/2018/02/01/january-roundup-maths-tech-computing/" target="_blank"><h2> January Roundup: Maths, Tech, Computing </h2></a>
+              <p>Date Published: 1st February 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="content-section" id="projects">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Projects (or maybe something else?)</h3>
+          <h2 class="mb-5">who knows</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/serenechongtrakul/" target="_blank">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/serenelc" target="_blank">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://soundcloud.com/serenelc" target="_blank">
+              <i class="icon-social-soundcloud"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- <p class="text-muted small mb-0">Copyright &copy; Your Website 2017</p> -->
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
 </html>
