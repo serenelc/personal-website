@@ -58,7 +58,7 @@ h6 {
 
 /* Masthead section */
 .masthead {
-  min-height: 30rem;
+  min-height: 40rem;
   position: relative;
   display: table;
   width: 100%;
@@ -90,16 +90,16 @@ h6 {
   background-size: cover;
 }
 
-/* Articles Section */
-#articles {
+/* Experience Section */
+#experience {
   background: #ffffcc;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* Projects Section */
-#projects {
+/* Articles Section */
+#articles {
   background: #ffe6ff;
   background-position: center center;
   background-repeat: no-repeat;
@@ -199,8 +199,8 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   background: #ffffcc;
   background-position: center center;
   background-repeat: no-repeat;
