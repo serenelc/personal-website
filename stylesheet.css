@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Helvetica Neue';
 }
 
 .content-section {
@@ -58,14 +58,14 @@ h6 {
 
 /* Masthead section */
 .masthead {
-  min-height: 40rem;
+  min-height: 30rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: #ffffcc;
+  background: #ffffff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,126 +82,19 @@ h6 {
   padding-right: 10px;
 }
 
-/* About Section */
-#about {
-  background: #ffe6ff;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Experience Section */
-#experience {
-  background: #ffffcc;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* Articles Section */
 #articles {
-  background: #ffe6ff;
+  background: #ffffff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-/* Side Menu */
-#sidebar-wrapper {
-  position: fixed;
-  z-index: 2;
-  right: 0;
-  width: 250px;
-  height: 100%;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-  transform: translateX(250px);
-  background: #343a40;
-}
-
-.sidebar-nav {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.sidebar-nav li.sidebar-nav-item a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  padding: 15px;
-}
-
-/*TODO: Change the colours for hover links on side bar*/
-.sidebar-nav li a:hover {
-  text-decoration: none;
-  color: #fff;
-}
-/*TODO: do I need this? */
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-  text-decoration: none;
-}
-
-.sidebar-nav > .sidebar {
-  font-size: 1.2rem;
-  height: 80px;
-  line-height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-}
-
-.sidebar-nav > .sidebar a {
-  color: #fff;
-}
-
-.sidebar-nav > .sidebar a:hover {
-  color: #fff;
-  background: none;
-}
-
-#sidebar-wrapper.active {
-  right: 250px;
-  width: 250px;
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-}
-
-.menu-toggle {
-  position: fixed;
-  right: 15px;
-  top: 15px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 50px;
-  z-index: 999;
-}
-
-.menu-toggle:focus, .menu-toggle:hover {
-  color: #fff;
-}
-
-.menu-toggle:hover {
-  background: #343a40;
 }
 
 footer.footer {
   padding-top: 3rem;
   padding-bottom: 1rem;
-  background: #ffffcc;
+  background: #000000;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,8 +118,6 @@ footer.footer .social-link:hover {
 
 a {
   color: #333;
-  /* padding-left: 10px;
-  padding-right: 10px; */
 }
 
 a:hover, a:focus, a:active {
